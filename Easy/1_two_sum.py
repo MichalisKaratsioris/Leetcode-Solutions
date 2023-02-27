@@ -19,12 +19,6 @@ def two_sum(arr: list, t: int) -> list:
     Examples:
         (1) arr = [2, 7, 11, 15]
             Expected Output: [0, 1]
-
-        (2) arr = [3, 2, 4]
-            Expected Output: [1, 2]
-
-        (3) arr = [3, 3]
-            Expected Output: [0, 1]
     """
     for i in range(len(arr) - 1):
         for j in range(i + 1, len(arr)):

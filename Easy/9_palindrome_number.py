@@ -16,11 +16,8 @@ def palindrome_number(n: int) -> bool:
         (1) n = 121
             Expected Output: True
     """
-    if str(n)[0] == str(n)[-1]:
-        return True
-    return False
-    # s = str(n)
-    # return s == s[::-1]
+    s = str(n)
+    return s == s[::-1]
 
 
 # ---------- TESTS -----------
